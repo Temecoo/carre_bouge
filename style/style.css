@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+
+    /* Background en damier brun clair et brun foncé */
+    background-color: rgb(101, 34, 0);
+    background-image: linear-gradient(45deg, rgb(155, 59, 11) 25%, transparent 25%, transparent 75%, rgb(155, 59, 11) 75%, rgb(155, 59, 11)),
+        linear-gradient(45deg, rgb(155, 59, 11) 25%, transparent 25%, transparent 75%, rgb(155, 59, 11) 75%, rgb(155, 59, 11));
+    background-size: 200px 200px;
+    background-position: 0 0, 100px 100px;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.cube {
+    background-color: rgb(22, 85, 137);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.cube2 {
+    background-color: rgb(255, 58, 58);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.bouge {
+    background-color: rgb(67, 142, 204);
+}
+
+.bouge2{ 
+    background-color: rgb(255, 95, 121);
+}
+
+.win {
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0%;
+}
