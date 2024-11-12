@@ -1,15 +1,50 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body Length="100">
-    <div class="cube2"><img src="img/fraise.png" alt="une fraise du jeu celeste"></div>
-    <div class="cube"><img src="img/madeline.png" alt="madeline du jeu celeste"></div>
-    <h1 class="win">You win</h1>
+    <div class="casecommande">
+        <div class="entetecommande">Commandes</div>
+        <div class="commandes">
+            <div class="commandes2">
+                <div class="clavier">
+                    <img src="img/touches.png" alt="les flèches directionnelles du clavier"></img>
+                </div>
+                <div class="commandes3">Utilisez les flèches pour vous déplacer</div>
+            </div>
+            <div class="commandes2">
+                <div class="clavier">
+                    <img src="img/space-button-icon.png" alt="la touche espace du clavier">
+                </div>
+                <div class="commandes3">
+                    <div>Appuyez sur espace pour commencez votre dash et rappuyez pour l'annuler.</div>
+                    <div>Votre dash met 3 tours à revenir.</div>
+                </div>
+            </div>
+            <div class="commandes2">
+                <div class="clavier">
+                    <img src="img/cristal.png" alt="le cristal dans celeste qui donne deux dash">
+                </div>
+                <div class="commandes3">
+                    <div>Le cristal du superdash apparait rarement sur le terrain et ne reste que 5 tours.</div>
+                    <div>Si vous le récupérez, votre prochain dash parcourera 3 cases au lieu de 2.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jeu">
+        <div class="cube2"><img src="img/fraise.png" alt="une fraise du jeu celeste"></div>
+        <div class="cube"><img src="img/madeline.png" alt="madeline du jeu celeste"></div>
+        <div class="cristal"><img src="img/cristal.png" alt="le crisal qui donne deux dash dans le niveau 9 de celeste"></div>
+        <h1 class="win">You win</h1>
+    </div>
     <script src="script/script.js"></script>
 </body>
+
 </html>
